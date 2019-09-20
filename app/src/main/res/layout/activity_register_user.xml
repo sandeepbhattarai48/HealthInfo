@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterUser">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:layout_margin="8dp"
+                    android:id="@+id/reg_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/reg_username"
+                    android:drawablePadding="8dp"
+                    android:drawableLeft="@drawable/per"
+                    android:inputType="text"
+                    android:layout_alignTop="@+id/reg_username"
+                    android:layout_alignStart="@+id/reg_username"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+                android:background="@drawable/layout_design"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                    android:layout_margin="8dp"
+                    android:id="@+id/reg_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/reg_email"
+                    android:drawablePadding="8dp"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_alignTop="@+id/reg_email"
+                    android:layout_alignStart="@+id/reg_email"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+                android:background="@drawable/layout_design"
+                android:layout_marginTop="20dp"
+                app:passwordToggleTint="#4CAF50"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleDrawable="@drawable/visibility_selector"
+                app:passwordToggleEnabled="true">
+
+            <EditText
+                    android:layout_margin="8dp"
+
+                    android:id="@+id/reg_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/reg_password"
+                    android:drawablePadding="8dp"
+                    android:drawableStart="@drawable/lock"
+                    android:inputType="textPassword"
+                    android:layout_alignTop="@+id/reg_pass"
+                    android:layout_alignStart="@+id/reg_pass"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+                android:background="@drawable/layout_design"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleTint="#4CAF50"
+
+                app:passwordToggleDrawable="@drawable/visibility_selector"
+                app:passwordToggleEnabled="true">
+
+            <EditText
+                    android:layout_margin="8dp"
+
+                    android:id="@+id/match_reg_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/reg_confirm_password"
+                    android:drawablePadding="8dp"
+                    android:drawableStart="@drawable/lock"
+                    android:inputType="textPassword"
+                    android:layout_alignTop="@+id/reg_pass"
+                    android:layout_alignStart="@+id/reg_pass"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/blood_type"/>
+
+
+        <Spinner
+                android:background="@drawable/layout_design"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                android:id="@+id/blood_lists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/blood_group"/>
+
+
+        <TextView
+                android:paddingTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/text"
+                android:text="@string/reg_gender"/>
+
+
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myRadioGroup"
+                android:checkedButton="@+id/sound">
+
+            <RadioButton
+                    android:background="@drawable/layout_design"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/male"
+                    android:padding="10dp"
+
+                    android:checked="true"
+                    android:text="@string/reg_male"/>
+
+            <RadioButton
+                    android:padding="10dp"
+
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/layout_design"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/female"
+                    android:text="@string/reg_female"/>
+
+
+        </RadioGroup>
+        <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/sign_up_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_button"
+                android:background="@drawable/button_design"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+</ScrollView>

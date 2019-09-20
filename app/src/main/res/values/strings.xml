@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Health Info</string>
+    <string name="title_activity_swipe">Swipe</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+
+
+    //For Login User
+    <string name="heading1">Learn And Be Healthy</string>
+    <string name="heading2">Be Healthy He Happy</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_remember">Remember Me</string>
+    <string name="login_forgot_password">Forgot Password ?</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+
+
+    //For register User
+
+    <string name="reg_username">Username</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_confirm_password">Confirm Password</string>
+    <string name="blood_type">Select Blood Type:</string>
+    <string name="reg_gender">Select Gender:</string>
+    <string name="reg_male">Male</string>
+    <string name="reg_female">Female</string>
+
+
+    //Body Mass Index
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal (healthy weight)</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Obese Class I (Moderately obese)</string>
+    <string name="obese_class_ii">Obese Class II (Severely obese)</string>
+    <string name="obese_class_iii">Obese Class III (Very severely obese)</string>
+    <string name="obese_class_iv">Obese Class IV (Morbidly Obese)</string>
+    <string name="obese_class_v">Obese Class V (Super Obese)</string>
+    <string name="obese_class_vi">Obese Class VI (Hyper Obese)</string>
+
+
+    //For Reset Password
+    <string name="reset_text">To reset password, enter your email, press the button and check mail to follow
+        instruction.
+    </string>
+    <string name="reset_email">Your Email Here</string>
+    <string name="reset_pass">Reset Password</string>
+
+
+    <string name="bmi_details">The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and
+        height of an individual.
+        The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then
+        categorize that person as underweight, normal weight, overweight,
+        or obese based on that value.
+    </string>
+
+    <string name="note">
+        <b>
+            <u>Note:</u>
+        </b>
+        1 Foot = 30.48 Centimeters (CM)\n
+        1 inch = 2.54 Centimeters(CM)
+    </string>
+
+
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    //for alarm Activity
+    <string name="main_interval">%1$s minutes between alarms</string>
+    <string name="interval_dialog_title">Enter interval between alarms:</string>
+    <string name="all_minutes">minutes</string>
+    <string name="number_dialog_title">Enter number of alarms:</string>
+    <string name="preferences_title">Settings</string>
+    <string name="preferences_duration_title">Duration of a ringtone</string>
+    <string name="preferences_ringtone_title">Choose ringtone</string>
+    <string name="preferences_default_duration">60 seconds</string>
+    <string name="preferences_default_ringtone_name">Default</string>
+    <string name="main_alarm_turned_off_toast">All alarms turned off</string>
+    <string name="main_alarm_turned_on_toast">All alarms turned on</string>
+    <string name="main_alarm_reset_toast">All alarms reset</string>
+    <string name="timepicker_dialog_title">Set Time of the First Alarm:</string>
+    <string name="all_time_left">%1$s hr %2$s min left</string>
+    <string name="notification_icon_title">Alarms turned on</string>
+    <string name="main_firstalarm_time">First alarm time: %1$s</string>
+    <string name="chooseringtone_chooser_title">Select a file</string>
+
+    <plurals name="main_number_of_alarms">
+        <item quantity="one">%1$s alarm</item>
+        <item quantity="other">%1$s alarms</item>
+    </plurals>
+
+
+</resources>
